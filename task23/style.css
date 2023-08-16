@@ -1,0 +1,142 @@
+.wrapper {
+  display: flex;
+  margin: 20px;
+  font-size: 15px;
+}
+section {
+  width: 33.3%;
+  padding: 10px;
+}
+
+ul {
+  list-style: none;
+}
+li {
+  cursor: pointer;
+}
+.orders-btn {
+  background-color: cadetblue;
+  margin-top: 40px;
+  height: 40px;
+}
+
+.orders-card {
+  display: none;
+}
+/* ul {
+  list-style: none;
+}
+li {
+  cursor: pointer;
+}
+.section_1,
+.section_2,
+.section_3 {
+  width: 33%;
+}
+
+.list1__cat,
+.list1__dog,
+.list1__fish,
+.orders {
+  width: 200px;
+  font-size: 30px;
+  border: 2px solid rgb(116, 113, 113);
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.orders {
+  background-color: cadetblue;
+  margin-left: 40px;
+}
+
+.list2__cat,
+.list2__dog,
+.list2__fish {
+  position: absolute;
+  font-size: 20px;
+  width: 200px;
+  border: 2px solid rgb(116, 113, 113);
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 10px;
+  display: none;
+}
+
+.cat_info,
+.dog_info,
+.fish_info {
+  position: absolute;
+}
+.hide {
+  display: none;
+} */
+
+/* форма реєстрації */
+
+form {
+  display: none;
+  width: 270px;
+  margin: auto;
+  padding: 10px;
+  background-color: rgb(109, 180, 247);
+}
+
+.surname1,
+.name1,
+.patronymic1,
+.post,
+.pay1,
+.address,
+.quantity,
+.comment {
+  /* display: flex; */
+  margin-top: 20px;
+}
+small {
+  display: flex;
+  justify-content: right;
+  color: crimson;
+  margin-right: 30px;
+}
+.pay1 {
+  margin-bottom: 20px;
+}
+.surname,
+.date_label {
+  margin-right: 20px;
+}
+
+.name {
+  margin-right: 50px;
+}
+
+.city {
+  margin-top: 10px;
+}
+
+.address {
+  flex-direction: column;
+}
+
+.submit {
+  margin-top: 10px;
+}
+.comment {
+  width: 250px;
+}
+table {
+  border: 1px solid rgb(172, 174, 177);
+  margin-top: 20px;
+  display: none;
+}
+
+th {
+  margin: 20px;
+  border: 1px solid rgb(172, 174, 177);
+  width: 200px;
+}
+.close {
+  display: none;
+}
